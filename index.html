@@ -3,60 +3,83 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Baby Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Baby Portfolio - Annga</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #fffaf5;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fffaf0;
       color: #333;
-      text-align: center;
-      padding: 2em;
     }
     header {
-      background-color: #fddde6;
-      padding: 1em;
+      background: #fcdde2;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      color: #e85d75;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+      color: #555;
+    }
+    .timeline {
+      padding: 2rem;
+    }
+    .month {
+      background: #fff;
       border-radius: 12px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
     }
-    img {
-      width: 200px;
-      border-radius: 12px;
-      margin-top: 1em;
+    .month h2 {
+      color: #e85d75;
     }
-    section {
-      margin-top: 2em;
+    .month img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 8px;
+      margin-top: 1rem;
     }
-    h2 {
-      color: #e66b8a;
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #999;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Welcome to My Baby Portfolio</h1>
-    <p>This is a timeline of sweet memories and milestones.</p>
+    <h1>Welcome to Annga's Baby Portfolio</h1>
+    <p>Our little star, lighting up our lives since January 1st, 2025</p>
   </header>
 
-  <section>
-    <h2>👶 Month 1</h2>
-    <p>My first smile and first cuddle!</p>
-    <img src="https://placekitten.com/300/300" alt="Baby Photo 1" />
-  </section>
+  <div class="timeline">
+    <div class="month">
+      <h2>👶 Month 1</h2>
+      <p>First cry, first cuddle, and many naps. We brought Annga home and couldn’t stop staring!</p>
+      <img src="https://placekitten.com/300/300" alt="Month 1 photo">
+    </div>
+    <div class="month">
+      <h2>🍼 Month 2</h2>
+      <p>Tummy time expert in the making. Loving cuddles and cooing sounds every day!</p>
+      <img src="https://placekitten.com/301/301" alt="Month 2 photo">
+    </div>
+    <div class="month">
+      <h2>💤 Month 3</h2>
+      <p>Giggles, longer sleeps, and the cutest yawns. Annga is growing beautifully.</p>
+      <img src="https://placekitten.com/302/302" alt="Month 3 photo">
+    </div>
+  </div>
 
-  <section>
-    <h2>🍼 Month 2</h2>
-    <p>I love tummy time and cooing!</p>
-    <img src="https://placekitten.com/301/301" alt="Baby Photo 2" />
-  </section>
-
-  <section>
-    <h2>💤 Month 3</h2>
-    <p>Sleeping like a champ and giggling!</p>
-    <img src="https://placekitten.com/302/302" alt="Baby Photo 3" />
-  </section>
-
-  <footer style="margin-top: 4em; font-size: 0.8em; color: #888;">
-    Made with love 💖 by Mom & Dad
+  <footer>
+    Made with 💖 by Mom & Dad — Update anytime on GitHub
   </footer>
 </body>
 </html>
